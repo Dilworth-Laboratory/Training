@@ -22,5 +22,5 @@ Typical steps for viewing after obtaining bigwigs/bed files:
   <li>Connect hub.txt public link to UCSC browser</li>  
   <li>View data</li>  
 </ol>  
-  
-[view_hubs_ucsc](view_hubs_ucsc.pdf)  
+   
+<center><img src="view_hubs_ucsc.png" alt="view_hubs_ucsc"/></center>
