@@ -1,2 +1,1 @@
-
-<embed src="computing_tutorial_1.pdf" type="application/pdf" />
+Computing 1 - Intro
