@@ -1,0 +1,49 @@
+track ChIP-Seq
+superTrack on show
+shortLabel  ChIP-Seq
+longLabel  A super-track of C2C12 Mice ChIP-Seq data
+
+	track Chip_Data_sample
+	parent ChIP-Seq 
+	compositeTrack on
+	shortLabel Chip_Data_sample
+	longLabel Chip_Data_sample_detail
+	type bigWig
+	autoScale on
+
+		track Chip_Data_sample_rep1
+		bigDataUrl ChIP-Seq/Chip_Data_sample1.bw
+		shortLabel Chip_Data_sample_1
+		longLabel Chip_Data_sample_1 detail
+		color 100,100,255
+		visibility full
+		parent Chip_Data_sample
+
+		track Chip_Data_sample_rep2
+		bigDataUrl ChIP-Seq/Chip_Data_sample2.bw
+		shortLabel Chip_Data_sample_2
+		longLabel Chip_Data_sample_2 detail
+		color 255,175,100
+		visibility full
+		parent Chip_Data_sample
+
+track CUT&Tag
+superTrack on show
+shortLabel  CUT&Tag
+longLabel  A super-track of C2C12 Mice CUT&Tag data
+
+  track CnT_Data_sample
+	parent CUT&Tag
+	compositeTrack on
+	shortLabel CnT_Data_sample
+	longLabel CnT_Data_sample_detail
+	type bigWig
+	autoScale on
+
+		track CnT_Data_sample_rep1
+		bigDataUrl CUT&Tag/CnT_Data_sample.bw
+		shortLabel CnT_Data_sample
+		longLabel CnT_Data_sample detail
+		color 100,100,255
+		visibility full
+		parent CnT_Data_sample
