@@ -1,0 +1,5 @@
+hub Dilworth Data - C2C12 Mice
+shortLabel Dilworth Data - C2C12 Mice
+longLabel Dilworth Data - C2C12 Mice
+genomesFile DilworthData_C2C12Mice_genomes.txt
+email earezza@ohri.ca
